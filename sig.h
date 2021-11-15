@@ -22,6 +22,6 @@ void process_sig(char **list , int ind) {
 	if(kill(pid,sig) == -1) {
 		perror("kill");
 		return;
-	}	
+	}
 }
 #endif
